@@ -41,7 +41,7 @@ artify/<br>
 
 1. **Clone** or **download** the project:
 
-git clone https://github.com/yourusername/artify.git
+git clone https://github.com/Rajasrikuchana/artify.git
 
 2. Place your artwork images inside the `/images` folder.
 
@@ -59,14 +59,19 @@ git clone https://github.com/yourusername/artify.git
 - 🌙 Dark mode toggle
 - 🔎 Artwork search/filter system
 
----
-
-## 📸 Preview
-
-> *(You can add a screenshot or live demo link here)*
 
 ---
+## 🤝 Contributing
 
+Contributions are welcome! Here's how you can help:
+
+- 💡 Suggest new features
+- 🐛 Report bugs or issues
+- 🛠️ Submit pull requests
+
+> Make sure your code follows the project’s style and passes all tests.
+
+---
 ## 🧑‍🎨 About the Creator
 
 **Rajasri Kuchana**  
