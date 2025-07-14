@@ -1,254 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flower shop website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flower Shop Website</title>
 
-    <link rel="stylesheet" href="style.css">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            script: ['Kaushan Script', 'cursive'],
+            mont: ['Montserrat', 'sans-serif'],
+            leckerli: ['Leckerli One', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
 
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
-
+  <!-- Icons and Fonts -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Leckerli+One&display=swap" rel="stylesheet" />
 </head>
-<body>
 
-    <header>
-        <a href="#" class="logo">
-            <img src="images/logooo.png" width="70">
-        </a>
-
-        <ul class="navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-
-        <div class="h-icons">
-            <a href="#"><i class='bx bx-shopping-bag'></i></a>
-            <a href="#"><i class='bx bx-phone'></i></a>
-            <a href="#"><i class='bx bx-heart'></i></a>
-            <div class="bx bx-menu" id="menu-icon"></div>
-            
-        </div>
-    </header> 
-
-
-    <section class="home">
-        <div class="home-text">
-            <h1>Find your own <br> Happiness</h1>
-            <p>Art enables us to find ourselves and <br> lose ourselves at the same time.</p>
-            <a href="#" class="btn">Get Started</a>
-        </div>
-    </section>
-
-    <section class="new product">
-        <div class="center-text">
-            <h2>new arrival items</h2>
-        </div>
-
-        <div class="new-content">
-            <div class="row">
-                <img src="images/pro1.png">
-                <h4>Masterpiece of 90-Year-Old</h4>
-                <h5>$18.00</h5>
-                <div class="top">
-                    <p>hot</p>
-                </div>
-                <div class="bbtn">
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="images/baby.png">
-                <h4>Baby squirrel on a leaf</h4>
-                <h5>$20.00</h5>
-                <div class="top">
-                    <p>hot</p>
-                </div>
-                <div class="bbtn">
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-            
-            <div class="row">
-                <img src="images/trap.jpg">
-                <h4>A trap for a soul</h4>
-                <h5>$16.00</h5>
-                <div class="top">
-                    <p>hot</p>
-                </div>
-                <div class="bbtn">
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="images/kkk.jpg">
-                <h4>Rembrandt van Rijn</h4>
-                <h5>$18.00</h5>
-                <div class="top">
-                    <p>hot</p>
-                </div>
-                <div class="bbtn">
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="images/ClaudeDebussy .png">
-                <h4>Claude Debussy</h4>
-                <h5>$25.00</h5>
-                <div class="top">
-                    <p>hot</p>
-                </div>
-                <div class="bbtn">
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="images/corner.jpg">
-                <h4>Corner wall 3D art</h4>
-                <h5>$22.00</h5>
-                <div class="top">
-                    <p>hot</p>
-                </div>
-                <div class="bbtn">
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section class="new product">
-        <div class="center-text">
-            <h2>SEE WHAT'S MOVING THE ART WORLD</h2>
-        </div>
-
-        <div class="new-content">
-            <div class="row">
-                <img src="images/DigitalArt.png">
-                <h5>Digital Art</h5>
-              
-                <div class="top">
-                    <p>new</p>
-                </div>
-                
-            </div>
-
-            <div class="row">
-                <img src="images/NFTs.png">
-                <h5>NFTs</h5>
-            
-                <div class="top">
-                    <p>new</p>
-                </div>
-            </div>
-            
-            <div class="row">
-                <img src="images/Book.png">
-                <h5>Book</h5>
-                <div class="top">
-                    <p>new</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="images/cerra.png">
-                <h5>Ceramic</h5>
-                <div class="top">
-                    <p>new</p>
-                </div>
-
-            </div>
-
-            <div class="row">
-                <img src="images/scult.png">
-                <h5>Sculpture</h5>
-                <div class="top">
-                    <p>new</p>
-                </div>
-
-            </div>
-
-            <div class="row">
-                <img src="images/painting.png">
-                <h5>Painting</h5>
-                <div class="top">
-                    <p>new</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact">
-        <div class="contact-box">
-           <h4>MY ACCOUNT</h4> 
-           <li><a href="#">My account</a></li>
-           <li><a href="#">Checkout</a></li>
-           <li><a href="#">Contact Us</a></li>
-           <li><a href="#">Shopping Cart</a></li>
-           <li><a href="#">WishList</a></li>
-        </div>
-
-        <div class="contact-box">
-            <h4>QUICK LINKS</h4> 
-            <li><a href="#">Store Location</a></li>
-            <li><a href="#">Orders Tracking</a></li>
-            <li><a href="#">Size Guide</a></li>
-            <li><a href="#">My account</a></li>
-            <li><a href="#">FAQs</a></li>
-        </div>
-
-        <div class="contact-box">
-            <h4>INFORMATION</h4> 
-            <li><a href="#">Privacy Page</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Delivery Information</a></li>
-            <li><a href="#">Term & Conditions</a></li>
-        </div>
-
-        <div class="contact-box">
-            <h4>CUSTOMER SERVICE</h4> 
-            <li><a href="#">Shipping Policy</a></li>
-            <li><a href="#">Help & Contact Us</a></li>
-            <li><a href="#">Returns & Refunds</a></li>
-            <li><a href="#">Online Stores</a></li>
-            <li><a href="#">Term and Conditions</a></li>
-        </div>
-
-        <div class="contact-box">
-            <h4>Artify</h4>
-            <h5>Connect with us</h5>
-            <div class="social">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-            </div>
-        </div>
-    </section>
-
-    <a href="#" class="scroll-top"><i class='bx bx-chevrons-up' ></a>
-
-    <div class="end-text">
-        <p><i class='bx bx-copyright'>All rights are Reserved</i></p>
+<body class="bg-white text-gray-800 font-mont">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white shadow-md">
+    <div class="flex items-center justify-between px-6 py-4">
+      <a href="#" class="flex items-center gap-2 text-lg font-bold">
+        <img src="images/logooo.png" class="w-10" />
+        <span class="text-pink-600 font-script text-xl">Artify</span>
+      </a>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#" class="hover:text-pink-500">Home</a>
+        <a href="#" class="hover:text-pink-500">About</a>
+        <a href="#" class="hover:text-pink-500">Shop</a>
+        <a href="#" class="hover:text-pink-500">Portfolio</a>
+        <a href="#" class="hover:text-pink-500">News</a>
+        <a href="#" class="hover:text-pink-500">Contact</a>
+      </nav>
+      <div class="flex gap-4 text-xl">
+        <a href="#"><i class='bx bx-shopping-bag'></i></a>
+        <a href="#"><i class='bx bx-phone'></i></a>
+        <a href="#"><i class='bx bx-heart'></i></a>
+        <div class="md:hidden cursor-pointer" id="menu-icon"><i class='bx bx-menu'></i></div>
+      </div>
     </div>
-    <script src="script.js"></script>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 bg-pink-100">
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Find your own <br><span class="text-pink-600">Happiness</span></h1>
+    <p class="text-gray-700 mt-4">Art enables us to find ourselves and <br> lose ourselves at the same time.</p>
+    <a href="#" class="mt-6 inline-block px-6 py-2 bg-pink-500 text-white rounded-full hover:bg-pink-600 transition">Get Started</a>
+  </section>
+
+  <!-- New Arrivals -->
+<section class="px-6 py-10">
+  <h2 class="text-2xl font-semibold text-center mb-6 uppercase">New Arrival Items</h2>
+  <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+    
+    <!-- Product 1 -->
+    <div class="bg-white rounded-lg shadow hover:shadow-xl transition p-4 text-center">
+      <img src="images/pro1.png" class="mx-auto mb-4 h-40 object-contain">
+      <h4 class="font-semibold">Masterpiece of 90-Year-Old</h4>
+      <p class="text-pink-500">$18.00</p>
+      <span class="inline-block mt-2 px-2 py-1 text-xs bg-red-100 text-red-600 rounded">Hot</span>
+      <a href="#" class="block mt-4 bg-pink-500 text-white py-1 rounded hover:bg-pink-600">Add to cart</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="bg-white rounded-lg shadow hover:shadow-xl transition p-4 text-center">
+      <img src="images/baby.png" class="mx-auto mb-4 h-40 object-contain">
+      <h4 class="font-semibold">Baby squirrel on a leaf</h4>
+      <p class="text-pink-500">$20.00</p>
+      <span class="inline-block mt-2 px-2 py-1 text-xs bg-red-100 text-red-600 rounded">Hot</span>
+      <a href="#" class="block mt-4 bg-pink-500 text-white py-1 rounded hover:bg-pink-600">Add to cart</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="bg-white rounded-lg shadow hover:shadow-xl transition p-4 text-center">
+      <img src="images/trap.jpg" class="mx-auto mb-4 h-40 object-contain">
+      <h4 class="font-semibold">A trap for a soul</h4>
+      <p class="text-pink-500">$16.00</p>
+      <span class="inline-block mt-2 px-2 py-1 text-xs bg-red-100 text-red-600 rounded">Hot</span>
+      <a href="#" class="block mt-4 bg-pink-500 text-white py-1 rounded hover:bg-pink-600">Add to cart</a>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="bg-white rounded-lg shadow hover:shadow-xl transition p-4 text-center">
+      <img src="images/kkk.jpg" class="mx-auto mb-4 h-40 object-contain">
+      <h4 class="font-semibold">Rembrandt van Rijn</h4>
+      <p class="text-pink-500">$18.00</p>
+      <span class="inline-block mt-2 px-2 py-1 text-xs bg-red-100 text-red-600 rounded">Hot</span>
+      <a href="#" class="block mt-4 bg-pink-500 text-white py-1 rounded hover:bg-pink-600">Add to cart</a>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="bg-white rounded-lg shadow hover:shadow-xl transition p-4 text-center">
+      <img src="images/ClaudeDebussy .png" class="mx-auto mb-4 h-40 object-contain">
+      <h4 class="font-semibold">Claude Debussy</h4>
+      <p class="text-pink-500">$25.00</p>
+      <span class="inline-block mt-2 px-2 py-1 text-xs bg-red-100 text-red-600 rounded">Hot</span>
+      <a href="#" class="block mt-4 bg-pink-500 text-white py-1 rounded hover:bg-pink-600">Add to cart</a>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="bg-white rounded-lg shadow hover:shadow-xl transition p-4 text-center">
+      <img src="images/corner.jpg" class="mx-auto mb-4 h-40 object-contain">
+      <h4 class="font-semibold">Corner wall 3D art</h4>
+      <p class="text-pink-500">$22.00</p>
+      <span class="inline-block mt-2 px-2 py-1 text-xs bg-red-100 text-red-600 rounded">Hot</span>
+      <a href="#" class="block mt-4 bg-pink-500 text-white py-1 rounded hover:bg-pink-600">Add to cart</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Category Section -->
+ <section class="px-6 py-10 bg-gray-50">
+  <h2 class="text-2xl font-semibold text-center mb-6 uppercase">See What's Moving the Art World</h2>
+  <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+    
+    <!-- Category 1 -->
+    <div class="bg-white p-4 rounded-lg shadow hover:shadow-xl text-center transition">
+      <img src="images/DigitalArt.png" class="mx-auto mb-3 h-32 object-contain">
+      <h5 class="text-lg font-semibold">Digital Art</h5>
+      <p class="text-xs text-pink-600 mt-1">New</p>
+    </div>
+
+    <!-- Category 2 -->
+    <div class="bg-white p-4 rounded-lg shadow hover:shadow-xl text-center transition">
+      <img src="images/NFTs.png" class="mx-auto mb-3 h-32 object-contain">
+      <h5 class="text-lg font-semibold">NFTs</h5>
+      <p class="text-xs text-pink-600 mt-1">New</p>
+    </div>
+
+    <!-- Category 3 -->
+    <div class="bg-white p-4 rounded-lg shadow hover:shadow-xl text-center transition">
+      <img src="images/Book.png" class="mx-auto mb-3 h-32 object-contain">
+      <h5 class="text-lg font-semibold">Book</h5>
+      <p class="text-xs text-pink-600 mt-1">New</p>
+    </div>
+
+    <!-- Category 4 -->
+    <div class="bg-white p-4 rounded-lg shadow hover:shadow-xl text-center transition">
+      <img src="images/cerra.png" class="mx-auto mb-3 h-32 object-contain">
+      <h5 class="text-lg font-semibold">Ceramic</h5>
+      <p class="text-xs text-pink-600 mt-1">New</p>
+    </div>
+
+    <!-- Category 5 -->
+    <div class="bg-white p-4 rounded-lg shadow hover:shadow-xl text-center transition">
+      <img src="images/scult.png" class="mx-auto mb-3 h-32 object-contain">
+      <h5 class="text-lg font-semibold">Sculpture</h5>
+      <p class="text-xs text-pink-600 mt-1">New</p>
+    </div>
+
+    <!-- Category 6 -->
+    <div class="bg-white p-4 rounded-lg shadow hover:shadow-xl text-center transition">
+      <img src="images/painting.png" class="mx-auto mb-3 h-32 object-contain">
+      <h5 class="text-lg font-semibold">Painting</h5>
+      <p class="text-xs text-pink-600 mt-1">New</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-900 text-white py-10">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-6 px-6 text-sm">
+      <div>
+        <h4 class="font-semibold mb-2">My Account</h4>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:underline">My account</a></li>
+          <li><a href="#">Checkout</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Shopping Cart</a></li>
+          <li><a href="#">Wishlist</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-1">
+          <li><a href="#">Store Location</a></li>
+          <li><a href="#">Order Tracking</a></li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Information</h4>
+        <ul class="space-y-1">
+          <li><a href="#">Privacy Page</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Delivery Info</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Customer Service</h4>
+        <ul class="space-y-1">
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Online Stores</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Artify</h4>
+        <p class="text-sm mb-2">Connect with us</p>
+        <div class="flex gap-3 text-xl">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-sm text-gray-400 mt-6">
+      <p>&copy; 2025 All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <a href="#" class="fixed bottom-4 right-4 bg-pink-500 text-white p-2 rounded-full shadow-lg hover:bg-pink-600 transition" title="Back to top">
+    <i class='bx bx-chevrons-up'></i>
+  </a>
+
+  <!-- JavaScript for mobile menu -->
+  <!-- External JavaScript -->
+<script src="script.js"></script>
 </body>
 </html>
